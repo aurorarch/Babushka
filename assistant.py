@@ -39,7 +39,7 @@ def chat():
     while(response.lower() not in negation):
         speak('What do you want to know about?')
         run()
-        speak('Do you want me to ask something?')
+        speak('Do you want to know anything else?')
         response = user_input()
     speak('It was nice talking to you')
 
